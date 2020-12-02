@@ -9,7 +9,7 @@ from os import path
 from pytz import timezone
 while True:
     ig = instaloader.Instaloader()
-    ig.login('@smartphone_network', '0987654321a')
+    ig.login('@', '') #enter ur username and password
     person = 'smartphone_network'  # mention the username without '@'
     discord_webhook_url = 'https://discord.com/api/webhooks/775738599156482080/b_ZgT0NVNhRbjAiGh3doJGyTFTeKAujWTDdiBCNveOiSp79SYOWOFL8H1QYKopGUbAvH'
 
