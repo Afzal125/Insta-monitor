@@ -1,5 +1,5 @@
 # Insta-monitor
-A python script which monitors your followers and notifies when someone unfollows you in Discord.
+A python script which monitors your instagram followers and notifies when someone unfollows you in Discord.
 Hello there!
 I'm Mohammed Afzal
 Thanks for visiting my repository!
