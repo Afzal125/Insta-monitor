@@ -48,7 +48,7 @@ while True:
 
         username = follower.username
 
-        current_followers.append(username+"\n")
+        current_followers.append(username)
         
         
     current_following = []
