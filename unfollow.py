@@ -80,13 +80,13 @@ while True:
             txtfile.truncate()
             txtfile.close()
 
-        with open('followers_details.txt','r+') as txtfile: 
-            for i in current_followers:
-                if i == ' ':
-                    pass
-                else:
-                    txtfile.write(i+'\n')
-            txtfile.close()
+    with open('followers_details.txt','r+') as txtfile: 
+        for i in current_followers:
+            if i == ' ':
+                pass
+            else:
+                txtfile.write(i+'\n')
+        txtfile.close()
             
         follower_change  = len(old_followers)-len(current_followers)
         if  len(old_followers) < len(current_followers):
